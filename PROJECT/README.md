@@ -59,7 +59,18 @@ Intent + Entities + Confidence
      ↓
 Streamlit UI / Evaluator
 ```
+---
 
+## 🖼️ Screenshots
+
+### 🧪 NLU Tester — Real-time Intent Prediction
+![NLU Tester](assets/nlu_tester.png)
+
+### 🧩 Extracted Entities & Raw JSON Output
+![NLU Result](assets/nlu_result.png)
+
+### 📊 Model Evaluation Dashboard
+![Evaluation](assets/evaluation.png)
 ---
 
 ## 📦 Tech Stack
@@ -200,4 +211,5 @@ streamlit run app.py
 - Streamlit dashboard development
 - NLP evaluation metrics
 - Modular ML project structure
+
 - Secure API key management
