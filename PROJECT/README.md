@@ -59,8 +59,8 @@ Intent + Entities + Confidence
      ↓
 Streamlit UI / Evaluator
 ```
----
 
+```
 ## 🖼️ Screenshots
 
 ### 🧪 NLU Tester — Real-time Intent Prediction
@@ -71,7 +71,7 @@ Streamlit UI / Evaluator
 
 ### 📊 Model Evaluation Dashboard
 ![Evaluation](assets/evaluation.png)
----
+```
 
 ## 📦 Tech Stack
 
@@ -213,3 +213,4 @@ streamlit run app.py
 - Modular ML project structure
 
 - Secure API key management
+
