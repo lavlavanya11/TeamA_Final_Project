@@ -1,0 +1,124 @@
+2026-03-06 10:58:24 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-06 10:58:24 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-06 10:58:24 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-06 10:58:25 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-06 10:59:17 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-06 10:59:17 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-06 10:59:17 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-06 10:59:18 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-06 10:59:18 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-06 10:59:18 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-06 10:59:18 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-06 10:59:19 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-06 10:59:19 | INFO | STREAMLIT_APP | User input: remind me to call mom at 5pm
+2026-03-06 10:59:19 | INFO | GROQ_NLU | Sending prompt for input: remind me to call mom at 5pm
+2026-03-06 10:59:20 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "set_reminder",
+  "confidence": 0.98,
+  "entities": {
+    "task": "call mom",
+    "time": "5pm"
+  }
+}
+2026-03-06 10:59:20 | INFO | GROQ_NLU | Predicted intent: set_reminder | Confidence: 0.98
+2026-03-06 11:00:25 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-06 11:00:25 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-06 11:00:25 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-06 11:00:26 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-06 11:00:28 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-06 11:00:28 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-06 11:00:28 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-06 11:00:29 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-06 11:00:29 | INFO | STREAMLIT_APP | Evaluation started
+2026-03-06 11:00:29 | INFO | GROQ_NLU | Sending prompt for input: Book a flight to Delhi
+2026-03-06 11:00:30 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_flight",
+  "confidence": 0.95,
+  "entities": {
+    "location": "Delhi"
+  }
+}
+2026-03-06 11:00:30 | INFO | GROQ_NLU | Predicted intent: book_flight | Confidence: 0.95
+2026-03-06 11:00:30 | INFO | GROQ_NLU | Sending prompt for input: Order me a pizza
+2026-03-06 11:00:31 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "order_food",
+  "confidence": 0.98,
+  "entities": {
+    "food_item": "pizza"
+  }
+}
+2026-03-06 11:00:31 | INFO | GROQ_NLU | Predicted intent: order_food | Confidence: 0.98
+2026-03-06 11:00:31 | INFO | GROQ_NLU | Sending prompt for input: What is the weather in Delhi?
+2026-03-06 11:00:32 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "check_weather",
+  "confidence": 0.98,
+  "entities": {
+    "location": "Delhi"
+  }
+}
+2026-03-06 11:00:32 | INFO | GROQ_NLU | Predicted intent: check_weather | Confidence: 0.98
+2026-03-06 11:00:32 | INFO | GROQ_NLU | Sending prompt for input: Remind me to call mom at 5pm
+2026-03-06 11:00:32 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "set_reminder",
+  "confidence": 0.98,
+  "entities": {
+    "task": "call mom",
+    "time": "5pm"
+  }
+}
+2026-03-06 11:00:32 | INFO | GROQ_NLU | Predicted intent: set_reminder | Confidence: 0.98
+2026-03-06 11:00:32 | INFO | GROQ_NLU | Sending prompt for input: Play some jazz music
+2026-03-06 11:00:33 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "play_music",
+  "confidence": 0.92,
+  "entities": {
+    "music_genre": "jazz"
+  }
+}
+2026-03-06 11:00:33 | INFO | GROQ_NLU | Predicted intent: play_music | Confidence: 0.92
+2026-03-06 11:00:33 | INFO | GROQ_NLU | Sending prompt for input: Book a hotel in Goa for 3 nights
+2026-03-06 11:00:33 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_hotel",
+  "confidence": 0.98,
+  "entities": {
+    "location": "Goa",
+    "duration": "3 nights"
+  }
+}
+2026-03-06 11:00:33 | INFO | GROQ_NLU | Predicted intent: book_hotel | Confidence: 0.98
+2026-03-06 11:00:33 | INFO | GROQ_NLU | Sending prompt for input: What is my account balance?
+2026-03-06 11:00:33 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "check_balance",
+  "confidence": 0.98,
+  "entities": {}
+}
+2026-03-06 11:00:33 | INFO | GROQ_NLU | Predicted intent: check_balance | Confidence: 0.98
+2026-03-06 11:00:33 | INFO | GROQ_NLU | Sending prompt for input: Send a message to John
+2026-03-06 11:00:34 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "send_message",
+  "confidence": 0.98,
+  "entities": {
+    "contact_name": "John"
+  }
+}
+2026-03-06 11:00:34 | INFO | GROQ_NLU | Predicted intent: send_message | Confidence: 0.98
+2026-03-06 11:00:34 | INFO | GROQ_NLU | Sending prompt for input: What is the latest news?
+2026-03-06 11:00:35 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "get_news",
+  "confidence": 0.98,
+  "entities": {
+    "news_category": "latest"
+  }
+}
+2026-03-06 11:00:35 | INFO | GROQ_NLU | Predicted intent: get_news | Confidence: 0.98
+2026-03-06 11:00:35 | INFO | GROQ_NLU | Sending prompt for input: Cancel my flight booking
+2026-03-06 11:00:35 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_flight",
+  "confidence": 0.8,
+  "entities": {
+    "booking_type": "flight"
+  }
+}
+2026-03-06 11:00:35 | INFO | GROQ_NLU | Predicted intent: book_flight | Confidence: 0.8
+2026-03-06 11:00:35 | INFO | EVALUATOR | Evaluation metrics: {'accuracy': 0.9, 'precision': 0.85, 'recall': 0.9, 'f1': 0.8666666666666666}
+2026-03-06 11:00:35 | INFO | EVALUATOR | Per-intent breakdown generated

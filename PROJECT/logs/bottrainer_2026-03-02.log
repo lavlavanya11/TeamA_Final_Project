@@ -1,0 +1,295 @@
+2026-03-02 21:16:13 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:16:13 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:16:13 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:16:13 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:16:32 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:16:32 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:16:32 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:16:32 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:16:33 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:16:33 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:16:33 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:16:33 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:16:41 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:16:41 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:16:41 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:16:41 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:16:51 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:16:51 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:16:51 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:16:51 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:16:52 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:16:52 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:16:52 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:16:52 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:16:52 | INFO | STREAMLIT_APP | User input: book a flight
+2026-03-02 21:16:52 | INFO | GEMINI_NLU | Sending prompt for input: book a flight
+2026-03-02 21:16:53 | ERROR | GEMINI_NLU | Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 13.946619216s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 13
+}
+]
+2026-03-02 21:17:04 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:17:04 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:17:04 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:17:04 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:17:04 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:17:04 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:17:04 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:17:04 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:17:04 | INFO | STREAMLIT_APP | User input: book a flight to delhi
+2026-03-02 21:17:04 | INFO | GEMINI_NLU | Sending prompt for input: book a flight to delhi
+2026-03-02 21:17:06 | ERROR | GEMINI_NLU | Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 1.703892892s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 1
+}
+]
+2026-03-02 21:17:51 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:17:51 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:17:51 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:17:51 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:17:51 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:17:51 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:17:51 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:17:51 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:17:51 | INFO | STREAMLIT_APP | User input: Order me a pizza and some fries
+2026-03-02 21:17:51 | INFO | GEMINI_NLU | Sending prompt for input: Order me a pizza and some fries
+2026-03-02 21:17:53 | ERROR | GEMINI_NLU | Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 13.992537858s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 13
+}
+]
+2026-03-02 21:25:22 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:25:22 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:25:22 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:25:23 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:25:48 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:25:48 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:25:48 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:25:48 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:25:48 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:25:48 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:25:50 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:25:50 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-2.0-flash
+2026-03-02 21:25:50 | INFO | STREAMLIT_APP | User input: Book a flight to Delhi tomorrow
+2026-03-02 21:25:50 | INFO | GEMINI_NLU | Sending prompt for input: Book a flight to Delhi tomorrow
+2026-03-02 21:25:51 | ERROR | GEMINI_NLU | Gemini API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 16.056879343s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '16s'}]}}
+2026-03-02 21:27:46 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:27:46 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:27:46 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:27:47 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-1.5-flash
+2026-03-02 21:28:15 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:28:15 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:28:15 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:28:15 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:28:16 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:28:16 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:28:19 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-1.5-flash
+2026-03-02 21:28:20 | INFO | GEMINI_NLU | GeminiNLU initialized with model: gemini-1.5-flash
+2026-03-02 21:28:20 | INFO | STREAMLIT_APP | User input: Will it rain in Mumbai tomorrow?
+2026-03-02 21:28:20 | INFO | GEMINI_NLU | Sending prompt for input: Will it rain in Mumbai tomorrow?
+2026-03-02 21:28:21 | ERROR | GEMINI_NLU | Gemini API error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-02 21:31:08 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:31:08 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:31:08 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:31:09 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-1.5-flash
+2026-03-02 21:31:25 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:31:25 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:31:25 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:31:25 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:31:25 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:31:25 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:31:27 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-1.5-flash
+2026-03-02 21:31:27 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-1.5-flash
+2026-03-02 21:31:27 | INFO | STREAMLIT_APP | User input: Order me a pizza and some fries
+2026-03-02 21:31:27 | INFO | GEMINI_NLU | Sending prompt for input: Order me a pizza and some fries
+2026-03-02 21:31:36 | ERROR | GEMINI_NLU | Gemini API error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-02 21:35:15 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:35:15 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:35:15 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:35:16 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-1.5-flash
+2026-03-02 21:35:40 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:35:40 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:35:40 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:35:41 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:35:41 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:35:41 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:35:42 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-1.5-flash
+2026-03-02 21:35:43 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-1.5-flash
+2026-03-02 21:35:43 | INFO | STREAMLIT_APP | User input: Order me a pizza and some fries
+2026-03-02 21:35:43 | INFO | GEMINI_NLU | Sending prompt for input: Order me a pizza and some fries
+2026-03-02 21:35:43 | ERROR | GEMINI_NLU | Gemini API error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-02 21:38:10 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:38:10 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:38:10 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:38:11 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-2.0-flash-lite
+2026-03-02 21:38:29 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:38:29 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:38:29 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:38:29 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:38:29 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:38:29 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:38:30 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-2.0-flash-lite
+2026-03-02 21:38:31 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-2.0-flash-lite
+2026-03-02 21:38:31 | INFO | STREAMLIT_APP | User input: Order me a pizza and some fries
+2026-03-02 21:38:31 | INFO | GEMINI_NLU | Sending prompt for input: Order me a pizza and some fries
+2026-03-02 21:38:32 | ERROR | GEMINI_NLU | Gemini API error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-03-02 21:39:26 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:39:26 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:39:26 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:39:28 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-2.0-flash-lite
+2026-03-02 21:39:34 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:39:34 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:39:34 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:39:34 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:39:34 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:39:34 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:39:36 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-2.0-flash-lite
+2026-03-02 21:39:36 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-2.0-flash-lite
+2026-03-02 21:39:36 | INFO | STREAMLIT_APP | User input: Order me a pizza and some fries
+2026-03-02 21:39:36 | INFO | GEMINI_NLU | Sending prompt for input: Order me a pizza and some fries
+2026-03-02 21:39:37 | ERROR | GEMINI_NLU | Gemini API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 29.94347119s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29s'}]}}
+2026-03-02 21:41:22 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:41:22 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:41:22 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:41:23 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-2.0-flash-lite
+2026-03-02 21:41:28 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:41:28 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:41:28 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:41:28 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-02 21:41:28 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-02 21:41:28 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-02 21:41:30 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-2.0-flash-lite
+2026-03-02 21:41:30 | INFO | GEMINI_NLU | GeminiNLU initialized with model: models/gemini-2.0-flash-lite
+2026-03-02 21:41:30 | INFO | STREAMLIT_APP | User input: Order me a pizza and some fries
+2026-03-02 21:41:30 | INFO | GEMINI_NLU | Sending prompt for input: Order me a pizza and some fries
+2026-03-02 21:41:31 | ERROR | GEMINI_NLU | Gemini API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite\nPlease retry in 35.805496636s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-lite'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-lite', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35s'}]}}

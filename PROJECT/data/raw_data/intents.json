@@ -1,0 +1,118 @@
+{
+  "intents": [
+    {
+      "name": "book_flight",
+      "examples": [
+        "Book a flight to Delhi",
+        "I want to fly to Mumbai tomorrow",
+        "Get me a ticket to Chennai",
+        "I need to travel to Bangalore next week"
+      ],
+      "entities": ["location", "date"]
+    },
+    {
+      "name": "order_food",
+      "examples": [
+        "Order me a pizza",
+        "I want to eat biryani",
+        "Get me a burger and fries",
+        "I am hungry, order some pasta"
+      ],
+      "entities": ["food_item"]
+    },
+    {
+      "name": "check_weather",
+      "examples": [
+        "What is the weather in Delhi?",
+        "Will it rain tomorrow in Mumbai?",
+        "Tell me the forecast for Chennai",
+        "How is the weather today?"
+      ],
+      "entities": ["location", "date"]
+    },
+    {
+      "name": "set_reminder",
+      "examples": [
+        "Remind me to call mom at 5pm",
+        "Set a reminder for my meeting tomorrow",
+        "Alert me at 8am to take medicine",
+        "Remind me about the gym at 6pm"
+      ],
+      "entities": ["time", "date", "task"]
+    },
+    {
+      "name": "play_music",
+      "examples": [
+        "Play some jazz music",
+        "I want to listen to Arijit Singh",
+        "Play my workout playlist",
+        "Put on some relaxing music"
+      ],
+      "entities": ["music_genre", "artist"]
+    },
+    {
+      "name": "book_hotel",
+      "examples": [
+        "Book a hotel in Goa for 3 nights",
+        "I need a room in Delhi from Friday",
+        "Find me a hotel near Mumbai airport",
+        "Reserve a suite in Chennai for the weekend"
+      ],
+      "entities": ["location", "date", "duration"]
+    },
+    {
+      "name": "check_balance",
+      "examples": [
+        "What is my account balance?",
+        "Show me my bank balance",
+        "How much money do I have?",
+        "Check my savings account"
+      ],
+      "entities": []
+    },
+    {
+      "name": "send_message",
+      "examples": [
+        "Send a message to John",
+        "Text Priya that I will be late",
+        "Message my boss about the meeting",
+        "Send WhatsApp to Rahul"
+      ],
+      "entities": ["contact_name", "message_content"]
+    },
+    {
+      "name": "get_news",
+      "examples": [
+        "What is the latest news?",
+        "Show me tech news today",
+        "Give me sports headlines",
+        "What happened in politics today?"
+      ],
+      "entities": ["news_category", "date"]
+    },
+    {
+      "name": "cancel_booking",
+      "examples": [
+        "Cancel my flight booking",
+        "I want to cancel my hotel reservation",
+        "Cancel my food order",
+        "Remove my restaurant booking"
+      ],
+      "entities": ["booking_type"]
+    }
+  ],
+  "entities": {
+    "location": ["Delhi", "Mumbai", "Chennai", "Bangalore", "Goa"],
+    "date": ["today", "tomorrow", "Friday", "next week", "weekend"],
+    "food_item": ["pizza", "biryani", "burger", "pasta", "fries"],
+    "time": ["5pm", "8am", "6pm", "noon", "midnight"],
+    "task": ["call mom", "meeting", "take medicine", "gym"],
+    "music_genre": ["jazz", "classical", "rock", "pop", "relaxing"],
+    "artist": ["Arijit Singh", "Taylor Swift", "Ed Sheeran"],
+    "duration": ["3 nights", "2 days", "a week", "weekend"],
+    "contact_name": ["John", "Priya", "Rahul", "boss"],
+    "message_content": ["I will be late", "meeting confirmed", "on my way"],
+    "news_category": ["tech", "sports", "politics", "business"],
+    "booking_type": ["flight", "hotel", "food", "restaurant"]
+  }
+}

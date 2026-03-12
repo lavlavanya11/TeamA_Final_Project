@@ -1,0 +1,453 @@
+2026-03-03 20:54:37 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 20:54:37 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 20:54:37 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 20:54:38 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 20:54:47 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 20:54:47 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 20:54:47 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 20:54:48 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 20:54:48 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 20:54:48 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 20:54:48 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 20:54:49 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 20:54:49 | INFO | STREAMLIT_APP | User input: Remind me to call mom at 5pm
+2026-03-03 20:54:49 | INFO | GROQ_NLU | Sending prompt for input: Remind me to call mom at 5pm
+2026-03-03 20:54:50 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "set_reminder",
+  "confidence": 0.98,
+  "entities": {
+    "task": "call mom",
+    "time": "5pm"
+  }
+}
+2026-03-03 20:54:50 | INFO | GROQ_NLU | Predicted intent: set_reminder | Confidence: 0.98
+2026-03-03 20:55:09 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 20:55:09 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 20:55:09 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 20:55:09 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 20:55:19 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 20:55:19 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 20:55:19 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 20:55:19 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 20:55:19 | INFO | STREAMLIT_APP | Evaluation started
+2026-03-03 20:55:19 | INFO | GROQ_NLU | Sending prompt for input: Book a flight to Delhi
+2026-03-03 20:55:20 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_flight",
+  "confidence": 0.98,
+  "entities": {
+    "location": "Delhi"
+  }
+}
+2026-03-03 20:55:20 | INFO | GROQ_NLU | Predicted intent: book_flight | Confidence: 0.98
+2026-03-03 20:55:20 | INFO | GROQ_NLU | Sending prompt for input: Order me a pizza
+2026-03-03 20:55:20 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "order_food",
+  "confidence": 0.98,
+  "entities": {
+    "food_item": "pizza"
+  }
+}
+2026-03-03 20:55:20 | INFO | GROQ_NLU | Predicted intent: order_food | Confidence: 0.98
+2026-03-03 20:55:20 | INFO | GROQ_NLU | Sending prompt for input: What is the weather in Delhi?
+2026-03-03 20:55:21 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "check_weather",
+  "confidence": 0.98,
+  "entities": {
+    "location": "Delhi"
+  }
+}
+2026-03-03 20:55:21 | INFO | GROQ_NLU | Predicted intent: check_weather | Confidence: 0.98
+2026-03-03 20:55:21 | INFO | GROQ_NLU | Sending prompt for input: Remind me to call mom at 5pm
+2026-03-03 20:55:21 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "set_reminder",
+  "confidence": 0.98,
+  "entities": {
+    "task": "call mom",
+    "time": "5pm"
+  }
+}
+2026-03-03 20:55:21 | INFO | GROQ_NLU | Predicted intent: set_reminder | Confidence: 0.98
+2026-03-03 20:55:21 | INFO | GROQ_NLU | Sending prompt for input: Play some jazz music
+2026-03-03 20:55:21 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "play_music",
+  "confidence": 0.98,
+  "entities": {
+    "music_genre": "jazz"
+  }
+}
+2026-03-03 20:55:21 | INFO | GROQ_NLU | Predicted intent: play_music | Confidence: 0.98
+2026-03-03 20:55:21 | INFO | GROQ_NLU | Sending prompt for input: Book a hotel in Goa for 3 nights
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_hotel",
+  "confidence": 0.92,
+  "entities": {
+    "location": "Goa",
+    "duration": "3 nights"
+  }
+}
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Predicted intent: book_hotel | Confidence: 0.92
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Sending prompt for input: What is my account balance?
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "check_balance",
+  "confidence": 0.98,
+  "entities": {}
+}
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Predicted intent: check_balance | Confidence: 0.98
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Sending prompt for input: Send a message to John
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "send_message",
+  "confidence": 0.98,
+  "entities": {
+    "contact_name": "John"
+  }
+}
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Predicted intent: send_message | Confidence: 0.98
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Sending prompt for input: What is the latest news?
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "get_news",
+  "confidence": 0.98,
+  "entities": {
+    "news_category": "latest"
+  }
+}
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Predicted intent: get_news | Confidence: 0.98
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Sending prompt for input: Cancel my flight booking
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_flight",
+  "confidence": 0.85,
+  "entities": {
+    "booking_type": "flight"
+  }
+}
+2026-03-03 20:55:22 | INFO | GROQ_NLU | Predicted intent: book_flight | Confidence: 0.85
+2026-03-03 20:55:23 | INFO | EVALUATOR | Evaluation metrics: {'accuracy': 0.9, 'precision': 0.85, 'recall': 0.9, 'f1': 0.8666666666666666}
+2026-03-03 20:55:23 | INFO | EVALUATOR | Per-intent breakdown generated
+2026-03-03 20:55:47 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 20:55:47 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 20:55:47 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 20:55:48 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 20:56:03 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 20:56:03 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 20:56:03 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 20:56:04 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:15:57 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:15:57 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:15:57 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:15:58 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:16:18 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:16:18 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:16:18 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:16:18 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:16:28 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:16:28 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:16:28 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:16:29 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:16:33 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:16:33 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:16:33 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:16:33 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:16:33 | INFO | STREAMLIT_APP | User input: book a flight to delhi tomorow
+2026-03-03 21:16:33 | INFO | GROQ_NLU | Sending prompt for input: book a flight to delhi tomorow
+2026-03-03 21:16:36 | ERROR | GROQ_NLU | Groq API error: Connection error.
+2026-03-03 21:17:47 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:17:47 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:17:47 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:17:48 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:18:52 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:18:52 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:18:52 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:18:52 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:18:52 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:18:52 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:18:53 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:18:53 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:18:53 | INFO | STREAMLIT_APP | User input: What is the meaning of life?
+2026-03-03 21:18:53 | INFO | GROQ_NLU | Sending prompt for input: What is the meaning of life?
+2026-03-03 21:18:56 | ERROR | GROQ_NLU | Groq API error: Connection error.
+2026-03-03 21:19:32 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:19:32 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:19:32 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:19:33 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:19:46 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:19:46 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:19:46 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:19:46 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:19:46 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:19:46 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:19:47 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:19:47 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:19:47 | INFO | STREAMLIT_APP | User input: Will it rain in Mumbai tomorrow?
+2026-03-03 21:19:47 | INFO | GROQ_NLU | Sending prompt for input: Will it rain in Mumbai tomorrow?
+2026-03-03 21:19:49 | ERROR | GROQ_NLU | Groq API error: Connection error.
+2026-03-03 21:36:56 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:36:56 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:36:56 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:36:57 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:37:53 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:37:53 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:37:53 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:37:53 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:37:53 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:37:53 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:37:54 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:37:54 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:37:54 | INFO | STREAMLIT_APP | User input: Remind me to call mom at 5pm
+2026-03-03 21:37:54 | INFO | GROQ_NLU | Sending prompt for input: Remind me to call mom at 5pm
+2026-03-03 21:37:56 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "set_reminder",
+  "confidence": 0.98,
+  "entities": {
+    "task": "call mom",
+    "time": "5pm"
+  }
+}
+2026-03-03 21:37:56 | INFO | GROQ_NLU | Predicted intent: set_reminder | Confidence: 0.98
+2026-03-03 21:38:16 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:38:16 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:38:16 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:38:16 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:38:21 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:38:21 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:38:21 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:38:22 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:38:22 | INFO | STREAMLIT_APP | Evaluation started
+2026-03-03 21:38:22 | INFO | GROQ_NLU | Sending prompt for input: Book a flight to Delhi
+2026-03-03 21:38:22 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_flight",
+  "confidence": 0.92,
+  "entities": {
+    "location": "Delhi"
+  }
+}
+2026-03-03 21:38:22 | INFO | GROQ_NLU | Predicted intent: book_flight | Confidence: 0.92
+2026-03-03 21:38:22 | INFO | GROQ_NLU | Sending prompt for input: Order me a pizza
+2026-03-03 21:38:23 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "order_food",
+  "confidence": 0.98,
+  "entities": {
+    "food_item": "pizza"
+  }
+}
+2026-03-03 21:38:23 | INFO | GROQ_NLU | Predicted intent: order_food | Confidence: 0.98
+2026-03-03 21:38:23 | INFO | GROQ_NLU | Sending prompt for input: What is the weather in Delhi?
+2026-03-03 21:38:23 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "check_weather",
+  "confidence": 0.98,
+  "entities": {
+    "location": "Delhi"
+  }
+}
+2026-03-03 21:38:23 | INFO | GROQ_NLU | Predicted intent: check_weather | Confidence: 0.98
+2026-03-03 21:38:23 | INFO | GROQ_NLU | Sending prompt for input: Remind me to call mom at 5pm
+2026-03-03 21:38:23 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "set_reminder",
+  "confidence": 0.98,
+  "entities": {
+    "task": "call mom",
+    "time": "5pm"
+  }
+}
+2026-03-03 21:38:23 | INFO | GROQ_NLU | Predicted intent: set_reminder | Confidence: 0.98
+2026-03-03 21:38:23 | INFO | GROQ_NLU | Sending prompt for input: Play some jazz music
+2026-03-03 21:38:24 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "play_music",
+  "confidence": 0.98,
+  "entities": {
+    "music_genre": "jazz"
+  }
+}
+2026-03-03 21:38:24 | INFO | GROQ_NLU | Predicted intent: play_music | Confidence: 0.98
+2026-03-03 21:38:24 | INFO | GROQ_NLU | Sending prompt for input: Book a hotel in Goa for 3 nights
+2026-03-03 21:38:25 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_hotel",
+  "confidence": 0.98,
+  "entities": {
+    "location": "Goa",
+    "duration": "3 nights"
+  }
+}
+2026-03-03 21:38:25 | INFO | GROQ_NLU | Predicted intent: book_hotel | Confidence: 0.98
+2026-03-03 21:38:25 | INFO | GROQ_NLU | Sending prompt for input: What is my account balance?
+2026-03-03 21:38:25 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "check_balance",
+  "confidence": 0.98,
+  "entities": {
+  }
+}
+2026-03-03 21:38:25 | INFO | GROQ_NLU | Predicted intent: check_balance | Confidence: 0.98
+2026-03-03 21:38:25 | INFO | GROQ_NLU | Sending prompt for input: Send a message to John
+2026-03-03 21:38:25 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "send_message",
+  "confidence": 0.98,
+  "entities": {
+    "contact_name": "John"
+  }
+}
+2026-03-03 21:38:25 | INFO | GROQ_NLU | Predicted intent: send_message | Confidence: 0.98
+2026-03-03 21:38:25 | INFO | GROQ_NLU | Sending prompt for input: What is the latest news?
+2026-03-03 21:38:26 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "get_news",
+  "confidence": 0.98,
+  "entities": {
+    "news_category": "latest"
+  }
+}
+2026-03-03 21:38:26 | INFO | GROQ_NLU | Predicted intent: get_news | Confidence: 0.98
+2026-03-03 21:38:26 | INFO | GROQ_NLU | Sending prompt for input: Cancel my flight booking
+2026-03-03 21:38:26 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_flight",
+  "confidence": 0.85,
+  "entities": {
+    "booking_type": "flight"
+  }
+}
+2026-03-03 21:38:26 | INFO | GROQ_NLU | Predicted intent: book_flight | Confidence: 0.85
+2026-03-03 21:38:26 | INFO | EVALUATOR | Evaluation metrics: {'accuracy': 0.9, 'precision': 0.85, 'recall': 0.9, 'f1': 0.8666666666666666}
+2026-03-03 21:38:26 | INFO | EVALUATOR | Per-intent breakdown generated
+2026-03-03 21:38:50 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:38:50 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:38:50 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:38:51 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:39:06 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:39:06 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:39:06 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:39:06 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:39:06 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:39:06 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:39:07 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:39:07 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:39:07 | INFO | STREAMLIT_APP | User input: Book a flight to Delhi tomorrow
+2026-03-03 21:39:07 | INFO | GROQ_NLU | Sending prompt for input: Book a flight to Delhi tomorrow
+2026-03-03 21:39:08 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_flight",
+  "confidence": 0.95,
+  "entities": {
+    "location": "Delhi",
+    "date": "tomorrow"
+  }
+}
+2026-03-03 21:39:08 | INFO | GROQ_NLU | Predicted intent: book_flight | Confidence: 0.95
+2026-03-03 21:44:06 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:44:06 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:44:06 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:44:08 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:44:13 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:44:13 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:44:13 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:44:14 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:44:14 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:44:14 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:44:14 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:44:15 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:44:15 | INFO | STREAMLIT_APP | User input: Order me a pizza and some fries
+2026-03-03 21:44:15 | INFO | GROQ_NLU | Sending prompt for input: Order me a pizza and some fries
+2026-03-03 21:44:16 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "order_food",
+  "confidence": 0.92,
+  "entities": {
+    "food_item": "pizza",
+    "food_item": "fries"
+  }
+}
+2026-03-03 21:44:16 | INFO | GROQ_NLU | Predicted intent: order_food | Confidence: 0.92
+2026-03-03 21:45:33 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:45:33 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:45:33 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:45:34 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:45:36 | INFO | JSON_LOADER | Validation passed — 10 intents found
+2026-03-03 21:45:36 | INFO | JSON_LOADER | Intents loaded successfully from data/raw_data/intents.json
+2026-03-03 21:45:36 | INFO | JSON_TO_DATAFRAME | Flattened dataset created — 40 rows, 10 intents
+2026-03-03 21:45:37 | INFO | GROQ_NLU | GroqNLU initialized with model: llama-3.1-8b-instant
+2026-03-03 21:45:37 | INFO | STREAMLIT_APP | Evaluation started
+2026-03-03 21:45:37 | INFO | GROQ_NLU | Sending prompt for input: Book a flight to Delhi
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_flight",
+  "confidence": 0.98,
+  "entities": {
+    "location": "Delhi"
+  }
+}
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Predicted intent: book_flight | Confidence: 0.98
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Sending prompt for input: Order me a pizza
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "order_food",
+  "confidence": 0.98,
+  "entities": {
+    "food_item": "pizza"
+  }
+}
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Predicted intent: order_food | Confidence: 0.98
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Sending prompt for input: What is the weather in Delhi?
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "check_weather",
+  "confidence": 0.98,
+  "entities": {
+    "location": "Delhi"
+  }
+}
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Predicted intent: check_weather | Confidence: 0.98
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Sending prompt for input: Remind me to call mom at 5pm
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "set_reminder",
+  "confidence": 0.98,
+  "entities": {
+    "task": "call mom",
+    "time": "5pm"
+  }
+}
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Predicted intent: set_reminder | Confidence: 0.98
+2026-03-03 21:45:39 | INFO | GROQ_NLU | Sending prompt for input: Play some jazz music
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "play_music",
+  "confidence": 0.98,
+  "entities": {
+    "music_genre": "jazz"
+  }
+}
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Predicted intent: play_music | Confidence: 0.98
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Sending prompt for input: Book a hotel in Goa for 3 nights
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_hotel",
+  "confidence": 0.98,
+  "entities": {
+    "location": "Goa",
+    "duration": "3 nights"
+  }
+}
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Predicted intent: book_hotel | Confidence: 0.98
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Sending prompt for input: What is my account balance?
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "check_balance",
+  "confidence": 0.98,
+  "entities": {}
+}
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Predicted intent: check_balance | Confidence: 0.98
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Sending prompt for input: Send a message to John
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "send_message",
+  "confidence": 0.92,
+  "entities": {
+    "contact_name": "John"
+  }
+}
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Predicted intent: send_message | Confidence: 0.92
+2026-03-03 21:45:40 | INFO | GROQ_NLU | Sending prompt for input: What is the latest news?
+2026-03-03 21:45:41 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "get_news",
+  "confidence": 0.98,
+  "entities": {
+    "news_category": "latest"
+  }
+}
+2026-03-03 21:45:41 | INFO | GROQ_NLU | Predicted intent: get_news | Confidence: 0.98
+2026-03-03 21:45:41 | INFO | GROQ_NLU | Sending prompt for input: Cancel my flight booking
+2026-03-03 21:45:41 | INFO | GROQ_NLU | Raw response received: {
+  "intent": "book_flight",
+  "confidence": 0.85,
+  "entities": {
+    "booking_type": "flight"
+  }
+}
+2026-03-03 21:45:41 | INFO | GROQ_NLU | Predicted intent: book_flight | Confidence: 0.85
+2026-03-03 21:45:41 | INFO | EVALUATOR | Evaluation metrics: {'accuracy': 0.9, 'precision': 0.85, 'recall': 0.9, 'f1': 0.8666666666666666}
+2026-03-03 21:45:41 | INFO | EVALUATOR | Per-intent breakdown generated
