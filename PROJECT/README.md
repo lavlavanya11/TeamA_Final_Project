@@ -220,10 +220,10 @@ streamlit run app.py
 
 ## 🎓 Learning Outcomes
 
-- Prompt engineering for structured LLM output
 - JSON-first NLU system design
 - LLM API integration (Groq + LLaMA)
 - Streamlit dashboard development
 - NLP evaluation metrics
 - Modular ML project structure
 - Secure API key management
+
