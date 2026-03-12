@@ -5,7 +5,7 @@
 ---
 
 ## 👨‍💻 Author
-**Dan** 
+**Dan**
 
 ---
 
@@ -60,7 +60,8 @@ Intent + Entities + Confidence
 Streamlit UI / Evaluator
 ```
 
-```
+---
+
 ## 🖼️ Screenshots
 
 ### 🧪 NLU Tester — Real-time Intent Prediction
@@ -71,7 +72,8 @@ Streamlit UI / Evaluator
 
 ### 📊 Model Evaluation Dashboard
 ![Evaluation](assets/evaluation.png)
-```
+
+---
 
 ## 📦 Tech Stack
 
@@ -91,6 +93,10 @@ Streamlit UI / Evaluator
 ```
 BOTTRAINER/
 │
+├── assets/                  # UI screenshots
+│   ├── nlu_tester.png
+│   ├── nlu_result.png
+│   └── evaluation.png
 ├── config/
 │   └── config.yaml          # Model & path configuration
 ├── data/
@@ -198,7 +204,16 @@ streamlit run app.py
 
 ---
 
-
+## 📝 Example Output
+```json
+{
+  "intent": "check_weather",
+  "confidence": 0.93,
+  "entities": {
+    "location": "Mumbai",
+    "date": "today"
+  }
+}
 ```
 
 ---
@@ -211,6 +226,4 @@ streamlit run app.py
 - Streamlit dashboard development
 - NLP evaluation metrics
 - Modular ML project structure
-
 - Secure API key management
-
