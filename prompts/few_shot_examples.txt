@@ -1,0 +1,54 @@
+Example 1
+User: "Book a flight to Delhi tomorrow"
+Output:
+{
+  "intent": "book_flight",
+  "confidence": 0.95,
+  "entities": {
+    "location": "Delhi",
+    "date": "tomorrow"
+  }
+}
+
+Example 2
+User: "Order me a large pepperoni pizza"
+Output:
+{
+  "intent": "order_food",
+  "confidence": 0.93,
+  "entities": {
+    "food_item": "large pepperoni pizza"
+  }
+}
+
+Example 3
+User: "What is the weather in Mumbai today?"
+Output:
+{
+  "intent": "check_weather",
+  "confidence": 0.9,
+  "entities": {
+    "location": "Mumbai",
+    "date": "today"
+  }
+}
+
+Example 4
+User: "Hey there"
+Output:
+{
+  "intent": "greet",
+  "confidence": 0.88,
+  "entities": {}
+}
+
+Example 5
+User: "What is the temperature in Pune?"
+Output:
+{
+  "intent": "check_weather",
+  "confidence": 0.85,
+  "entities": {
+    "location": "Pune"
+  }
+}
