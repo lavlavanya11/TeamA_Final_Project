@@ -1,0 +1,201 @@
+intent,utterance,entities
+book_flight,Book a flight to Delhi tomorrow,location|date
+book_flight,I want to fly to Mumbai next week,location|date
+book_flight,Schedule a flight to Chennai on Friday,location|date
+book_flight,Get me a ticket to Bangalore,location
+book_flight,Book airfare to Hyderabad,location
+book_flight,I need a flight to Pune today,location|date
+book_flight,Reserve a seat to Kochi,location
+book_flight,Book flight tickets to Goa,location
+book_flight,I want to travel to Trichy,location
+book_flight,Find flights to Coimbatore,location
+book_flight,Book a plane ticket to Jaipur,location
+book_flight,I want to go to Ahmedabad,location
+book_flight,Schedule my trip to Indore,location
+book_flight,Book flight for Kolkata,location
+book_flight,Get me a flight for Monday to Delhi,location|date
+book_flight,I want to fly tomorrow to Mumbai,location|date
+book_flight,Reserve flight seats to Chennai,location
+book_flight,Flight booking for Bangalore,location
+book_flight,Travel booking to Hyderabad,location
+book_flight,Book my air travel to Goa,location
+order_food,Order me a pizza,food_item
+order_food,I want biryani,food_item
+order_food,Get two burgers,quantity|food_item
+order_food,Order pasta for lunch,food_item
+order_food,Can I have one dosa,quantity|food_item
+order_food,Order fried rice,food_item
+order_food,Get me three samosas,quantity|food_item
+order_food,I want to eat noodles,food_item
+order_food,Order one sandwich,quantity|food_item
+order_food,Please get pizza for dinner,food_item
+order_food,Order idli,food_item
+order_food,Buy biryani for tonight,food_item
+order_food,I need food delivered,
+order_food,Order food now,
+order_food,Get me lunch,
+order_food,Order snacks,
+order_food,Order one burger,quantity|food_item
+order_food,Get me breakfast,
+order_food,I want chapati,food_item
+order_food,Order food online,
+check_weather,What is the weather in Delhi,location
+check_weather,Check weather for Mumbai tomorrow,location|date
+check_weather,Will it rain in Chennai,location
+check_weather,Weather update for Bangalore,location
+check_weather,How is the weather today,date
+check_weather,Forecast for Hyderabad,location
+check_weather,Is it sunny in Pune,location
+check_weather,Weather report for Kochi,location
+check_weather,Temperature in Goa,location
+check_weather,Climate in Trichy,location
+check_weather,Weather details for Coimbatore,location
+check_weather,Rain forecast for Jaipur,location
+check_weather,Weather status Ahmedabad,location
+check_weather,Is it hot in Indore,location
+check_weather,Tell weather for Kolkata,location
+check_weather,Check tomorrow weather,date
+check_weather,How cold is Delhi,location
+check_weather,Weather today,date
+check_weather,Give weather info,
+check_weather,Weather conditions now,
+book_hotel,Book a hotel in Delhi,location
+book_hotel,Reserve hotel in Mumbai,location
+book_hotel,Hotel booking for Chennai,location
+book_hotel,I need a hotel in Bangalore,location
+book_hotel,Find hotels in Hyderabad,location
+book_hotel,Book stay in Pune,location
+book_hotel,Reserve room in Kochi,location
+book_hotel,Hotel reservation in Goa,location
+book_hotel,Book hotel for Jaipur,location
+book_hotel,Stay booking Ahmedabad,location
+book_hotel,Get hotel in Indore,location
+book_hotel,Book accommodation in Kolkata,location
+book_hotel,Need a hotel room,
+book_hotel,Book hotel for tomorrow,date
+book_hotel,Reserve hotel this weekend,date
+book_hotel,Find a hotel nearby,
+book_hotel,Book hotel now,
+book_hotel,Hotel booking request,
+book_hotel,Book my stay,
+book_hotel,Need hotel tonight,date
+track_order,Track my order,
+track_order,Where is my order,
+track_order,Track order ORD123,order_id
+track_order,Check order status,
+track_order,Order tracking,
+track_order,Track my package,
+track_order,Where is my delivery,
+track_order,Check shipment status,
+track_order,Track order number ORD456,order_id
+track_order,Order status please,
+track_order,Track my purchase,
+track_order,Track order online,
+track_order,Find my order,
+track_order,Delivery status,
+track_order,Track product order,
+track_order,Track order now,
+track_order,Order tracking info,
+track_order,Track delivery,
+track_order,Track order details,
+track_order,Order tracking request,
+cancel_order,Cancel my order,
+cancel_order,Cancel order ORD123,order_id
+cancel_order,I want to cancel my purchase,
+cancel_order,Cancel this order,
+cancel_order,Stop my delivery,
+cancel_order,Cancel order now,
+cancel_order,Please cancel my order,
+cancel_order,Cancel shipment,
+cancel_order,Cancel product order,
+cancel_order,Order cancellation,
+cancel_order,Cancel order request,
+cancel_order,Cancel my package,
+cancel_order,Stop order delivery,
+cancel_order,Cancel order online,
+cancel_order,Cancel my booking,
+cancel_order,Cancel purchase,
+cancel_order,Cancel item,
+cancel_order,Order cancel,
+cancel_order,Cancel order ORD456,order_id
+cancel_order,Cancel order immediately,
+bank_balance,Check my bank balance,account_type
+bank_balance,What is my account balance,account_type
+bank_balance,Show savings balance,account_type
+bank_balance,Check current account balance,account_type
+bank_balance,Balance enquiry,
+bank_balance,How much money do I have,
+bank_balance,Account balance please,
+bank_balance,Check balance,
+bank_balance,Bank balance now,
+bank_balance,Balance check,
+bank_balance,Show my balance,
+bank_balance,Savings account balance,account_type
+bank_balance,Current account amount,account_type
+bank_balance,Money in my account,
+bank_balance,Balance information,
+bank_balance,Check bank amount,
+bank_balance,Available balance,
+bank_balance,Account funds,
+bank_balance,How much balance left,
+bank_balance,Show balance details,
+transfer_money,Transfer money to John,recipient
+transfer_money,Send 5000 to Alice,amount|recipient
+transfer_money,Transfer 1000 rupees,amount
+transfer_money,Send money now,
+transfer_money,Make a payment,
+transfer_money,Transfer funds,
+transfer_money,Send cash to Bob,recipient
+transfer_money,Pay 2000 to Mike,amount|recipient
+transfer_money,Money transfer request,
+transfer_money,Send money online,
+transfer_money,Transfer amount,
+transfer_money,Send payment,
+transfer_money,Transfer money today,
+transfer_money,Send money quickly,
+transfer_money,Online transfer,
+transfer_money,Transfer funds now,
+transfer_money,Pay someone,
+transfer_money,Send money immediately,
+transfer_money,Transfer money request,
+transfer_money,Send cash online,
+schedule_meeting,Schedule a meeting tomorrow,date
+schedule_meeting,Fix a meeting at 10 AM,time
+schedule_meeting,Set up meeting,
+schedule_meeting,Book meeting slot,
+schedule_meeting,Schedule meeting with team,
+schedule_meeting,Meeting at 3 PM,time
+schedule_meeting,Arrange a meeting,
+schedule_meeting,Plan meeting,
+schedule_meeting,Schedule meeting today,date
+schedule_meeting,Meeting schedule request,
+schedule_meeting,Set meeting reminder,
+schedule_meeting,Book meeting now,
+schedule_meeting,Schedule call,
+schedule_meeting,Fix meeting time,
+schedule_meeting,Arrange call,
+schedule_meeting,Meeting appointment,
+schedule_meeting,Schedule discussion,
+schedule_meeting,Meeting setup,
+schedule_meeting,Plan call tomorrow,date
+schedule_meeting,Schedule office meeting,
+tech_support,My laptop is not working,device|issue
+tech_support,Phone screen is broken,device|issue
+tech_support,Internet is not working,issue
+tech_support,Computer issue,issue
+tech_support,Mobile problem,device|issue
+tech_support,System crash,issue
+tech_support,Device not turning on,device|issue
+tech_support,Laptop overheating,device|issue
+tech_support,Printer not working,device|issue
+tech_support,Software issue,issue
+tech_support,Hardware problem,issue
+tech_support,Wifi connection issue,issue
+tech_support,Keyboard not working,device|issue
+tech_support,Mouse problem,device|issue
+tech_support,Screen flickering,issue
+tech_support,Technical issue,issue
+tech_support,Need tech support,
+tech_support,Device repair help,device
+tech_support,System error,issue
+tech_support,Support needed,
