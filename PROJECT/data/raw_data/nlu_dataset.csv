@@ -1,0 +1,301 @@
+text,true_intent
+Book a flight to Delhi,book_flight
+I want to fly to Mumbai tomorrow,book_flight
+Get me a ticket to Chennai,book_flight
+I need to travel to Bangalore next week,book_flight
+Can you book a flight to Goa for Friday,book_flight
+I want to go to Delhi by plane,book_flight
+Find me a flight to Mumbai this weekend,book_flight
+Book two tickets to Chennai for tomorrow,book_flight
+I need a one way flight to Bangalore,book_flight
+Get me the earliest flight to Goa,book_flight
+Reserve a flight seat to Delhi for next Monday,book_flight
+I want to fly from Mumbai to Chennai,book_flight
+Book a return flight to Bangalore,book_flight
+Can I get a flight to Goa next Friday,book_flight
+I need to book a flight immediately to Delhi,book_flight
+Find cheapest flight to Mumbai tomorrow,book_flight
+Schedule a flight to Chennai for the weekend,book_flight
+Book business class to Bangalore,book_flight
+I want an evening flight to Goa,book_flight
+Get me a morning flight to Delhi please,book_flight
+Can you check flights to Mumbai on Sunday,book_flight
+I need to fly to Chennai urgently,book_flight
+Book a connecting flight to Bangalore,book_flight
+Find me a direct flight to Goa,book_flight
+I want to travel to Delhi by air next week,book_flight
+Book a flight for two to Mumbai,book_flight
+I need tickets to Chennai for my family,book_flight
+Get a flight to Bangalore on Saturday,book_flight
+Can you reserve a flight to Goa for me,book_flight
+I want to book the next available flight to Delhi,book_flight
+Order me a pizza,order_food
+I want to eat biryani,order_food
+Get me a burger and fries,order_food
+I am hungry order some pasta,order_food
+Can you order me some sushi,order_food
+I feel like eating pizza tonight,order_food
+Order a large biryani for delivery,order_food
+Get me two burgers please,order_food
+I want pasta with extra cheese,order_food
+Order some Chinese food for me,order_food
+Can I get a pizza with extra toppings,order_food
+I want to order biryani and naan,order_food
+Get me a veggie burger,order_food
+Order pasta and garlic bread,order_food
+I am craving some fried rice,order_food
+Can you get me a pizza margherita,order_food
+Order me chicken biryani please,order_food
+I want a double cheeseburger,order_food
+Get some pasta delivered to my place,order_food
+Order me a meal for two,order_food
+I want to order food right now,order_food
+Can you order me some tandoori chicken,order_food
+Get me a pepperoni pizza,order_food
+I want to eat something spicy order biryani,order_food
+Order me french fries and a burger,order_food
+Can I get pasta carbonara delivered,order_food
+I feel like having a pizza party,order_food
+Order me some noodles and fried rice,order_food
+Get me a healthy meal please,order_food
+I want to order dessert and pasta,order_food
+What is the weather in Delhi?,check_weather
+Will it rain tomorrow in Mumbai?,check_weather
+Tell me the forecast for Chennai,check_weather
+How is the weather today?,check_weather
+What is the temperature in Bangalore right now,check_weather
+Is it going to snow in Delhi tomorrow,check_weather
+Check the weather for Goa this weekend,check_weather
+What will the weather be like in Mumbai on Friday,check_weather
+Tell me if it will rain in Chennai today,check_weather
+How hot is it in Bangalore,check_weather
+What is the weather forecast for next week in Delhi,check_weather
+Is it sunny in Mumbai right now,check_weather
+Will there be a storm in Chennai tomorrow,check_weather
+What is the humidity level in Bangalore,check_weather
+Check weather conditions in Goa today,check_weather
+Is it cold in Delhi this week,check_weather
+What is the wind speed in Mumbai,check_weather
+Tell me the weather update for Chennai,check_weather
+How is the weather in Bangalore this evening,check_weather
+Will it be cloudy in Goa tomorrow,check_weather
+What is the UV index in Delhi today,check_weather
+Is it safe to travel to Mumbai in this weather,check_weather
+Tell me the weekly forecast for Chennai,check_weather
+How cold will it get in Bangalore tonight,check_weather
+What is the weather like in Goa in December,check_weather
+Is it raining in Delhi right now,check_weather
+What are the weather conditions in Mumbai today,check_weather
+Will it be hot in Chennai this weekend,check_weather
+Check if there are any weather warnings for Bangalore,check_weather
+What is the weather going to be like in Goa on Saturday,check_weather
+Remind me to call mom at 5pm,set_reminder
+Set a reminder for my meeting tomorrow,set_reminder
+Alert me at 8am to take medicine,set_reminder
+Remind me about the gym at 6pm,set_reminder
+Set an alarm for my doctor appointment on Friday,set_reminder
+Remind me to pay bills tomorrow morning,set_reminder
+Alert me 10 minutes before my meeting,set_reminder
+Set a reminder for my anniversary next week,set_reminder
+Remind me to water the plants at 7am,set_reminder
+Set an alarm for 6am tomorrow,set_reminder
+Remind me to call the office at noon,set_reminder
+Alert me when it is time to leave for the airport,set_reminder
+Set a reminder for my interview on Monday,set_reminder
+Remind me to take my medication at 9pm,set_reminder
+Alert me at 3pm for my client call,set_reminder
+Set a reminder for my dentist appointment,set_reminder
+Remind me to submit the report by Friday,set_reminder
+Alert me every morning at 7am,set_reminder
+Set a reminder for my weekly team meeting,set_reminder
+Remind me to pick up kids at 4pm,set_reminder
+Alert me 30 minutes before my flight,set_reminder
+Set a reminder for my birthday party next Saturday,set_reminder
+Remind me to send the email tonight,set_reminder
+Alert me when my package arrives,set_reminder
+Set a reminder to call dad on Sunday,set_reminder
+Remind me about my yoga class at 8am,set_reminder
+Alert me at midnight for the new year,set_reminder
+Set a daily reminder to drink water,set_reminder
+Remind me to check my emails at 9am,set_reminder
+Alert me when the timer reaches zero,set_reminder
+Play some jazz music,play_music
+I want to listen to Arijit Singh,play_music
+Play my workout playlist,play_music
+Put on some relaxing music,play_music
+Can you play some pop songs,play_music
+I want to hear some classical music,play_music
+Play the latest hits please,play_music
+Put on some rock music for me,play_music
+I want to listen to Taylor Swift,play_music
+Play some chill lo-fi music,play_music
+Can you play Ed Sheeran songs,play_music
+I want some background music while I work,play_music
+Play my morning playlist,play_music
+Put on some Bollywood songs,play_music
+I want to listen to hip hop music,play_music
+Play some soft music please,play_music
+Can you play instrumental music,play_music
+I want to hear old classic songs,play_music
+Play upbeat music for my run,play_music
+Put on some country music,play_music
+I want to listen to jazz in the evening,play_music
+Play some meditation music,play_music
+Can you play my favorite playlist,play_music
+I want to hear acoustic songs,play_music
+Play some party music right now,play_music
+Put on some metal music,play_music
+I want to listen to indie music,play_music
+Play some romantic songs,play_music
+Can you shuffle my playlist,play_music
+I want some music to help me sleep,play_music
+Book a hotel in Goa for 3 nights,book_hotel
+I need a room in Delhi from Friday,book_hotel
+Find me a hotel near Mumbai airport,book_hotel
+Reserve a suite in Chennai for the weekend,book_hotel
+Book a budget hotel in Bangalore,book_hotel
+I want a luxury hotel in Goa,book_hotel
+Find a hotel in Delhi with pool,book_hotel
+Reserve a double room in Mumbai for 2 nights,book_hotel
+Book a hotel for my family in Chennai,book_hotel
+I need accommodation in Bangalore near city center,book_hotel
+Can you find a hotel in Goa with sea view,book_hotel
+Book a 5 star hotel in Delhi,book_hotel
+I want a cheap hotel in Mumbai,book_hotel
+Reserve a hotel room in Chennai for business trip,book_hotel
+Book a hotel in Bangalore with free breakfast,book_hotel
+Find me a pet friendly hotel in Goa,book_hotel
+I need a hotel in Delhi for one night,book_hotel
+Reserve a hotel near Mumbai train station,book_hotel
+Book a hotel in Chennai for my honeymoon,book_hotel
+I want a hotel in Bangalore with gym,book_hotel
+Find a hotel with parking in Goa,book_hotel
+Book me into a hotel in Delhi this weekend,book_hotel
+I need a hotel room in Mumbai urgently,book_hotel
+Reserve a hotel in Chennai with airport shuttle,book_hotel
+Book a hotel in Bangalore for 5 days,book_hotel
+Find me the best rated hotel in Goa,book_hotel
+I want to stay in a boutique hotel in Delhi,book_hotel
+Reserve a hotel suite in Mumbai for our anniversary,book_hotel
+Book a hotel in Chennai close to the beach,book_hotel
+I need a hotel in Bangalore for a conference,book_hotel
+What is my account balance?,check_balance
+Show me my bank balance,check_balance
+How much money do I have?,check_balance
+Check my savings account,check_balance
+What is the balance in my current account,check_balance
+Can you show my available balance,check_balance
+How much is left in my account,check_balance
+Tell me my total bank balance,check_balance
+Check my account statement,check_balance
+What is my credit card balance,check_balance
+Show me my recent transactions,check_balance
+How much did I spend this month,check_balance
+What is the balance in my joint account,check_balance
+Can I see my account summary,check_balance
+Tell me my outstanding balance,check_balance
+Check if my salary has been credited,check_balance
+What is my available credit limit,check_balance
+Show me my account balance in dollars,check_balance
+How much money is in my wallet,check_balance
+Can you check my fixed deposit balance,check_balance
+What is my loan outstanding balance,check_balance
+Show me my net banking balance,check_balance
+How much can I spend today,check_balance
+Tell me my account balance as of today,check_balance
+Check my balance before I make a payment,check_balance
+What is the minimum balance in my account,check_balance
+Show me my balance and recent transactions,check_balance
+How much did I receive last month,check_balance
+Can you tell me my current fund balance,check_balance
+What is my balance after the last transaction,check_balance
+Send a message to John,send_message
+Text Priya that I will be late,send_message
+Message my boss about the meeting,send_message
+Send WhatsApp to Rahul,send_message
+Can you send a text to my mom,send_message
+I want to message Priya right now,send_message
+Send an SMS to John saying I am on my way,send_message
+Text my friend that the party is cancelled,send_message
+Message Rahul about tomorrow's plan,send_message
+Send a quick message to my boss,send_message
+Can you text Priya to call me back,send_message
+I want to send a message to my team,send_message
+Send John a message that I will be there at 8,send_message
+Text my sister about the family dinner,send_message
+Message my colleague about the project update,send_message
+Send a WhatsApp message to Rahul,send_message
+Can you send a voice message to Priya,send_message
+I want to text John my new address,send_message
+Send a message to my manager about leave,send_message
+Text Rahul that I need help,send_message
+Can you message my doctor to confirm appointment,send_message
+I want to send a birthday message to Priya,send_message
+Send John the meeting details,send_message
+Text my dad that I reached safely,send_message
+Message Rahul asking him to call me,send_message
+Send a good morning message to Priya,send_message
+I want to message my friend group,send_message
+Send John a reminder about our meeting,send_message
+Text my wife that I will be home late,send_message
+Message Rahul about the weekend plans,send_message
+What is the latest news?,get_news
+Show me tech news today,get_news
+Give me sports headlines,get_news
+What happened in politics today?,get_news
+Tell me the top news stories right now,get_news
+What is happening in the world today,get_news
+Show me business news,get_news
+Give me entertainment headlines,get_news
+What are the latest cricket scores,get_news
+Tell me about recent technology updates,get_news
+Show me international news today,get_news
+What is the latest in science news,get_news
+Give me health news updates,get_news
+What happened in the stock market today,get_news
+Tell me local news for Delhi,get_news
+Show me breaking news right now,get_news
+What are todays top headlines,get_news
+Give me news about the economy,get_news
+What is happening in sports today,get_news
+Tell me about any major events today,get_news
+Show me political news updates,get_news
+What is the latest news in technology,get_news
+Give me movie and entertainment news,get_news
+What happened in cricket today,get_news
+Tell me about the latest scientific discoveries,get_news
+Show me financial news for today,get_news
+What is trending in the news right now,get_news
+Give me a news summary for today,get_news
+What are the important news stories this week,get_news
+Tell me about any recent disasters or emergencies,get_news
+Cancel my flight booking,cancel_booking
+I want to cancel my hotel reservation,cancel_booking
+Cancel my food order,cancel_booking
+Remove my restaurant booking,cancel_booking
+I need to cancel my train ticket,cancel_booking
+Can you cancel my cab booking,cancel_booking
+Cancel my appointment please,cancel_booking
+I want to cancel my movie tickets,cancel_booking
+Remove my flight reservation immediately,cancel_booking
+Cancel my gym membership,cancel_booking
+I need to cancel my hotel room,cancel_booking
+Can you remove my food delivery order,cancel_booking
+Cancel my bus ticket please,cancel_booking
+I want to cancel my spa appointment,cancel_booking
+Remove my table reservation at the restaurant,cancel_booking
+Cancel my online order,cancel_booking
+I need to cancel my subscription,cancel_booking
+Can you cancel my event tickets,cancel_booking
+Cancel my doctor appointment,cancel_booking
+I want to remove my car rental booking,cancel_booking
+Cancel my cruise reservation,cancel_booking
+Remove my tour package booking,cancel_booking
+I need to cancel my holiday package,cancel_booking
+Can you cancel my bike rental,cancel_booking
+Cancel my conference registration,cancel_booking
+I want to cancel my salon appointment,cancel_booking
+Remove my sports event booking,cancel_booking
+Cancel my ferry ticket,cancel_booking
+I need to cancel my parking reservation,cancel_booking
+Can you cancel my visa appointment,cancel_booking
